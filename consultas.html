@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="contenedor_formulario">
+        <div class="item">
+            <img src="img/imag1.jpg">
+        </div>
+        <div class="item">
+            <form action="mostrardatos.html" method="POST" target="_blank" class="formulario">
+                <h1> Ponete en contacto con nosotros </h1>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required>
+                <br><br>
+                <label for="telefono"> Teléfono: </label>
+                <input type="number" name="telefono" id="telefono" required>
+                <br><br>
+                <label for="asunto"> Asunto: </label>
+                <select name="asunto">
+                    <option value="1">Clientes</option>
+                    <option value="2">Proveedores</option>
+                    <option value="3">Seguimiento de envíos</option>
+                    <option value="4">Otros</option>                    
+                </select>
+                <br><br>
+                <label for="consulta"> Consulta: </label><br>
+                <textarea name="consulta" id="consulta" rows="5" cols="30" required></textarea>               
+                <br><br>
+                <label for="newsletter">Querés recibir ofertas y novedades?</label>
+                <input type="checkbox" name="newsletter" id="1"> Sí
+                <input type="checkbox" name="newsletter" id="2"> No
+                <br><br><br>
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Borrar" class="boton">                
+        </div>
+        <div class="item">
+            <img src="img/imag2.jpg">
+        </div>
+    </div>
+</body>
+
+</html>

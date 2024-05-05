@@ -1,0 +1,38 @@
+.contenedor_formulario {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #620E5D
+    
+}
+
+
+.item {
+    display: flex;
+    object-fit: cover;
+
+}
+
+.item:nth-child(1) {
+    flex-shrink: 6;
+    width: 25vw;
+}
+
+.item:nth-child(2) {
+    flex-shrink: 0;
+    width: 50vw;
+    
+}
+
+.item:nth-child(3) {
+    flex-shrink: 6;
+    width: 25vw;
+}
+
+.formulario {
+    background-color: #620E5D;
+}
+
+.boton {
+    background-color: #FF6E49;
+}
+
